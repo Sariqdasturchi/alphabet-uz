@@ -1,0 +1,69 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 780px;
+    background-color: rgba(38, 150, 38, 0.753);
+    border-radius: 25px;   
+}
+
+.home-container h1 {
+    margin-left: -290px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Akaya Kanadaka", system-ui;
+    color: white;
+}
+.home-container hr {
+    width: 90%;
+    margin-top: -15px;
+    border: 1px solid silver;
+}
+
+.home-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Akaya Kanadaka", system-ui;
+    color: white;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.user-boy {
+    width: 150px;
+    height: 180px;
+    background-image: url('../images/user-boy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.user-gril {
+    width: 150px;
+    height: 180px;
+    margin: 15px;
+    background-image: url('../images/user-gril.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}

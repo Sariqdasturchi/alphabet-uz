@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../style/homePage.css">
+    <title>Alphabet</title>
+</head>
+<body>
+    <section class="home-page">
+        <div class="home-page-container">
+            <div class="home-page-header">
+                <div class="header-logo">
+                    <h1>Alphabet Uz</h1>
+                </div>
+                <div class="header-user"></div>
+            </div>
+            <div class="home-page-main game">
+                <div class="game-card">
+                    <audio src="../audios/onaim.mp3" id="elementaAudio"></audio>
+                </div>
+                <div class="game-card">
+                    <audio src="../audios/tbkri.mp3" id="elementaAudio"></audio>
+                </div>
+                <div class="game-card">
+                    <audio src="../audios/odyue.mp3" id="elementaAudio"></audio>
+                </div>
+                
+                <div class="game-page">
+                    <h1 class="text-h1"></h1>
+                    <div class="game-page-container">
+                        <div class="ball-container" onclick="clickCard()">O
+                            <audio src="../audios/o.mp3" id="audios"></audio>
+                        </div>
+                        <div class="ball-container" onclick="clickCard()">N
+                            <audio src="../audios/N.mp3" id="audios"></audio>
+                        </div>
+                        <div class="ball-container" onclick="clickCard()">A
+                            <audio src="../audios/A.mp3" id="audios"></audio>
+                        </div>
+                        <div class="ball-container" onclick="clickCard()">I
+                            <audio src="../audios/I.mp3" id="audios"></audio>
+                        </div>
+                        <div class="ball-container" onclick="clickCard()">M
+                            <audio src="../audios/M.mp3" id="audios"></audio>
+                        </div>
+                    </div>
+                    <div class="game-page-wood-container">
+                        <div class="wood-container" onclick="clickWood()">T</div>
+                        <div class="wood-container">B</div>
+                        <div class="wood-container">K</div>
+                    </div>
+                    <div class="game-page-clout-container">
+                        <div class="clout-container">O'</div>
+                        <div class="clout-container">D</div>
+                        <div class="clout-container">U</div>
+                        <div class="clout-container">Y</div>
+                        <div class="clout-container">E</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-page-footer">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-forward"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-backward"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-book-atlas"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-music"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="../js/homeCard.js"></script>
+</body>
+</html>

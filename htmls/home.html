@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/home.css">
+    <title>Alphabet</title>
+</head>
+<body>
+    <section class="home">
+        <div class="home-container">
+            <h1>Alphabet uz</h1>
+            <hr>
+            <div class="users">
+                <a href="./hom-page.html" id="user-boy">
+                    <div class="user-boy"></div>
+                </a>
+                <h2>Og'il bola</h2>
+                <a href="./hom-page.html" id="user-gril">
+                    <div class="user-gril"></div>
+                </a>
+                <h2>Qiz bola</h2>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const userBoyLink = document.querySelector('#user-boy');
+        const userGrilLink = document.querySelector('#user-gril');
+
+        const userBoy = document.querySelector('.user-boy');
+        const userGril = document.querySelector('.user-gril');
+
+        userBoyLink.addEventListener('click', (e) => {
+            userBoy()
+        })
+
+        userGrilLink.addEventListener('click', (e) => {
+            userBoy()
+        })
+
+        function userBoyFunc(user) {
+            if(user) {
+                return userBoy.style.backgroundImage = 'url(../images/boy.png)'
+            } else {
+                return userGril.classList.add('active')
+                console.log(userGril);
+                
+            }
+        }
+    </script>
+</body>
+</html>

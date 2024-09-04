@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-one, .login-two, .login-thre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 780px;
+    margin: 50px auto;
+    background-color: rgba(38, 150, 38, 0.753);
+    border-radius: 25px;
+    /* border: 1px solid red; */
+}
+
+.login-one-image {
+    width: 329px;
+    height: 361px;
+    background-image: url('../images/login1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+
+.login-two-image {
+    width: 329px;
+    height: 361px;
+    background-image: url('../images/login2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-thre-image {
+    width: 329px;
+    height: 361px;
+    background-image: url('../images/login3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-one-text, .login-two-text, .login-thre-text {
+    width: 60%;
+    height: 95px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.login-one-text h1, .login-two-text h1, .login-thre-text h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Akaya Kanadaka", system-ui;
+    color: white;
+}
+
+.login-one-btn, .login-two-btn, .login-thre-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 95px;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.login-one-btn button, .login-two-btn button, .login-thre-btn button {
+    width: 240px;
+    height: 62px;
+    background-color: #FF961B;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.login-one-btn button a, .login-two-btn button a, .login-thre-btn button a {
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Akaya Kanadaka", system-ui;
+    color: white;
+}
+
+.login-one-footer, .login-two-footer, .login-thre-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 85px;
+    /* border: 1px solid red; */
+}
+
+.footer-btn-scroll button {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.footer-btn-scroll button:nth-child(1) {
+    background-color: white;
+    opacity: 1;
+}
+
+.login-two .footer-btn-scroll button:nth-child(2) {
+    background-color: white;
+    opacity: 1;
+}
+
+.login-two .footer-btn-scroll button:nth-child(1) {
+    opacity: .7;
+}
+
+.login-thre .footer-btn-scroll button:nth-child(1) {
+    opacity: .7;
+}
+
+.login-thre .footer-btn-scroll button:nth-child(2) {
+    opacity: .7;
+}
+
+.login-thre .footer-btn-scroll button:nth-child(3) {
+    background-color: white;
+    opacity: 1;
+}
+
+.footer-btn-skip button {
+    width: 70px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-btn-skip button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Akaya Kanadaka", system-ui;
+    color: white;
+}
